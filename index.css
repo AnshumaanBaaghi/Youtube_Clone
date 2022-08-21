@@ -307,6 +307,9 @@ body::-webkit-scrollbar-thumb {
 #videos > div {
   cursor: pointer;
 }
+#videos > div > :nth-child(1) {
+  border-radius: 2px;
+}
 #videos > div > :nth-child(2) {
   display: flex;
   height: 114px;
